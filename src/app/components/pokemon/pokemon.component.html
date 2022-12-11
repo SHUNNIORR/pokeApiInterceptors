@@ -1,0 +1,18 @@
+
+<div *ngIf="!isEmpty()">
+    <div class="pokemonCard">
+        <img src={{pokemonToSon.sprites.front_default}}>
+        <div class="pokeinfo">
+            <p>
+                Name: {{pokemonToSon.name}}
+            </p>
+            <p>
+                Height: {{pokemonToSon.height}} 
+            </p>
+            <p>
+                weight: {{pokemonToSon.weight}} gr
+            </p>
+        </div>
+    </div>
+</div>
+
